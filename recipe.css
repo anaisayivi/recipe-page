@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e5d7;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Carte principale */
+.card {
+  width: 700px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 35px;
+  border-radius: 20px;
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Titre */
+h1 {
+  font-family: 'Young Serif', serif;
+  margin: 25px 0 15px;
+  font-size: 32px;
+}
+
+/* Description */
+.description {
+  color: #5f574e;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Bloc préparation */
+.prep-box {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.prep-box h3 {
+  color: #7b284f;
+  margin-bottom: 10px;
+}
+
+.prep-box ul {
+  padding-left: 20px;
+}
+
+.prep-box li {
+  margin-bottom: 8px;
+}
+
+/* Titres sections */
+h2 {
+  font-family: 'Young Serif', serif;
+  color: #854632;
+  margin: 20px 0 10px;
+}
+
+/* Listes */
+.ingredients, .instructions {
+  padding-left: 20px;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 10px;
+  color: #5f574e;
+}
+
+/* Ligne */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 25px 0;
+}
+
+/* Nutrition */
+.nutrition-desc {
+  color: #5f574e;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.nutrition div {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.value {
+  color: #854632;
+  font-weight: 600;
+}
